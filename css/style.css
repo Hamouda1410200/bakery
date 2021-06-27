@@ -1,0 +1,312 @@
+header
+{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position:center center;
+    color: white;
+}
+header .header-content 
+{
+    width: 52%;
+}
+header p 
+{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+header h1 
+{
+    font-family: 'Alegreya', serif;
+    font-size: 4.5rem;
+    font-weight: 400;
+
+}
+header .header-content .btns 
+{
+    margin: 10px;
+    padding: 15px 28px;
+    
+    border-radius: 5px;
+}
+header .header-content .btns a 
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Alegreya Sans', sans-serif; 
+    font-weight: 700;
+    font-size: 1rem;
+}
+header .header-content .btns:hover 
+{
+    background-color: white;
+}
+header .header-content  .btn1
+{
+    background-color: #8e7754;;
+}
+header .header-content  .btn2 
+{
+    border: 2px solid white;
+}
+header .header-content  .btns:hover a
+{
+    
+    color: black;
+}
+header   .brdr
+{
+    width: 32px;
+    height:50px;
+    border: 1px solid white;
+    border-radius: 24px;
+}
+header   .brdr::after
+{
+    content: "";
+    background:#fff;
+    position: absolute;
+    width:8px;
+    height: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    animation: brdr 1.6s infinite;
+}
+@keyframes brdr 
+{
+    0%{top: 15%;opacity: 1;}
+    100%{top: 70%;opacity: 0;}
+}
+header .box 
+{
+    width: 45px;
+    height:80px;
+    border: 2px solid white;
+    background-color: #f1f1f1;
+    right: 0;
+    top: 35%;
+    border-radius: 3px;
+}
+header .box-menu li 
+{
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+header .box-menu li a 
+{
+    text-decoration: none;
+    color: #666;
+}
+header .box-menu li a i 
+{
+    font-size: 1.3rem;
+}
+nav ul li 
+{
+    padding: 10px;
+}
+nav ul li a 
+{
+    
+    font-family: 'Alegreya', serif !important;
+    font-size: 1.1rem;
+    font-weight: 400 !important;
+    color: white !important;
+    
+}
+nav 
+{
+    background-color: rgba( 0, 0, 0, 0.4);
+}
+.about-section h3 
+{
+    font-family: 'Alegreya', serif !important;
+    font-size: 2rem;
+    font-weight: 400 !important;
+    
+}
+.about-section p 
+{
+    font-family: 'Alegreya Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 1rem;
+    color: #686868;
+}
+.about-section ul li 
+{
+    padding: 10px;
+}
+
+.about-section ul li i 
+{
+    margin-right: 10px;
+    color: rgb(142, 119, 84) !important;
+    font-size: 1.6rem;
+    
+}
+.about-section ul li .icon 
+{
+    height: 45px;
+    width: 45px;
+    /* background-color: black;  */
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 50%;
+    border: solid 1px rgba( 0, 0, 0, 0.1);
+}
+.offer-section h3 
+{
+    font-family: 'Alegreya', serif !important;
+    font-size: 2rem;
+    font-weight: 400 !important;
+    
+}
+.offer-section p 
+{
+    font-family: 'Alegreya Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 1rem;
+    color: #686868;
+}
+.gallery-section .card
+{
+    border: 0 solid white;
+}
+.gallery-section .card h5 
+{
+    font-family: 'Alegreya', serif !important;
+    font-size: 1.3rem;
+    font-weight: 400 !important;
+}
+.gallery-section  p 
+{
+    font-family: 'Alegreya Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 1rem;
+    color: #686868;
+}
+.gallery-section  h3 
+{
+    font-family: 'Alegreya', serif !important;
+    font-size: 1.9rem;
+    font-weight: 400 !important;
+}
+.contact-section ul li 
+{
+    padding: 10px;
+}
+
+.contact-section ul li i 
+{
+    margin-right: 10px;
+    
+    font-size: 1.3rem;
+    color: white;
+    
+}
+.contact-section ul li .icon 
+{
+    background-color: rgb(142, 119, 84) !important;
+    height: 40px;
+    width: 40px;
+    /* background-color: black;  */
+    display: flex;
+    justify-content: flex-end!important;
+    align-items: center !important;
+    border-radius: 50%;
+    border: solid 1px rgb(142, 119, 84);
+}
+.contact-section h3 
+{
+    font-family: 'Alegreya', serif !important;
+    font-size: 2rem;
+    font-weight: 400 !important;
+    
+}
+.contact-section p 
+{
+    font-family: 'Alegreya Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 1rem;
+    color: #686868;
+}
+.contact-section iframe
+{
+    width: 100%;
+    height: 500px;
+}
+footer
+{
+    background-color: #353330;
+}
+footer .icon-1
+{
+    width: 40px;
+    height: 40px;
+    background-color: #484540;
+    margin: 4px;
+    
+}
+footer .icon-2
+{
+    width: 40px;
+    height: 40px;
+    background-color: #484540;
+    margin: 4px;
+    
+}
+footer .icon-3
+{
+    width: 40px;
+    height: 40px;
+    background-color: #484540;
+    margin: 4px;
+    
+}
+footer .icon-4
+{
+    width: 40px;
+    height: 40px;
+    background-color: #484540;
+    margin: 4px;
+    
+}
+footer i 
+{
+    color: #8c8a86;
+}
+footer .icon-1:hover i 
+{
+    color: white;
+}
+footer .icon-2:hover i 
+{
+    color: white;
+}
+footer .icon-3:hover i 
+{
+    color: white;
+}
+footer .icon-4:hover i 
+{
+    color: white;
+}
+
+footer   .icon-1:hover
+{
+    background-color: #4267B2;
+}
+footer   .icon-3:hover
+{
+    background-color: #1DA1F2;
+}
+footer  .icon-4:hover
+{
+    background-color: #DB4437 ;
+}
+footer  .icon-2:hover
+{
+    background-color: #2867B2;
+}
